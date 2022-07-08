@@ -1,0 +1,98 @@
+#corps{
+    background-color: saddlebrown;
+    color: saddlebrown;
+}
+fieldset{
+    background-color: lightgray;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 20px;
+    
+}
+header h1{
+    margin: 20px;
+    font-size: 35px;
+}
+header p{
+    margin: 20px;
+}
+hr{
+    height: 2px;
+    background-color: lightsalmon;
+}
+.form1{
+    margin: 20px;
+}
+.form1a{
+    display: flex;
+    flex-direction: row;
+
+}
+.inp2{
+    margin-left: 30px;
+}
+.form2{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.form2a{
+    margin-top: 50px;
+    margin-left: -85px;
+    display: flex;
+    flex-direction: row;
+
+}
+.form2a select{
+    margin: 4px;
+    width: 55px;
+    
+}
+.form3{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.form3 select{
+    width: 170px;
+}
+.form4{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.form4a{
+    margin-left: 30px;
+}
+.form5{
+    margin-top: 100px;
+    margin-left: -384px;
+}
+.form5 select{
+    width: 170px;
+}
+.inscription1{
+    background-color: lightsalmon;
+    border: 5px solid white;
+    color: maroon;
+    border-radius: 20px;
+    height: 50px;
+    width: 120px;
+    margin-top: 190px;
+    overflow: hidden;
+   transition: all 1s;
+   font-size: 15px;
+   opacity: 1;
+    
+}
+
+.inscription1.actif{
+    background-color: maroon;
+    color: white;
+    border-color: lightsalmon;
+}
+.inscription1:hover,
+.inscription1.actif{
+    background-color: saddlebrown;
+    color: white;
+    border-color: white;
+}
