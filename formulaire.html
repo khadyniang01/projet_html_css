@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formilaire.css">
+</head>
+<body>
+    <form action="resultat.html" method="post" id="incription">
+        <fieldset>
+        
+            <section>
+                <header>
+                    <h1>Formulaire d'inscription pour des cours de southiens</h1>
+                    <p>Fill out the form carefullyfor registration</p>
+                </header>
+                <hr>
+                <div class="form1">
+                    <p>Nom *</p>
+                    <div class="form1a">
+                        <div class="inp1">
+                            <input type="text" name="Nom" class="Nom_ins" required>
+                            <p>Prenom</p>
+                        </div>
+                        <div class="inp2">
+                            <input type="text" name="Prenom" class="Prenom_ins" required>
+                            <p>Nom de famille</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="form2">
+                    <p>Birth Date *</p>
+                    <div class="form2a">
+                        <div>
+                            <select name="Mois" id="mois" onchange="" required>
+                                <option value="">
+                                    MOIS
+                                </option>
+                                <option value="J1">Janvier</option>
+                                <option value="F2">Fevrier</option>
+                                <option value="M3">Mars</option>
+                                <option value="A4">Avril</option>
+                                <option value="M5">Mai</option>
+                                <option value="J6">Juin</option>
+                                <option value="J7">juillet</option>
+                                <option value="08">Oûte</option>
+                                <option value="S9">Septembre</option>
+                                <option value="010">Octobre</option>
+                                <option value="N11">Novembre</option>
+                                <option value="N12">Decembre</option>
+                            </select>
+                            <p>Month</p>
+                        </div>
+                        <div>
+                            <select name="Jour" id="jour" required>
+                                <option value="">
+                                    JOUR
+                                </option>
+                                <option value="A">1</option>
+                                <option value="B">2</option>
+                                <option value="C">3</option>
+                                <option value="D">4</option>
+                                <option value="E">5</option>
+                                <option value="F">6</option>
+                                <option value="G">7</option>
+                                <option value="H">8</option>
+                                <option value="I">9</option>
+                                <option value="J">10</option>
+                                <option value="K">11</option>
+                                <option value="L">12</option>
+                                <option value="M">13</option>
+                                <option value="N">14</option>
+                                <option value="O">16</option>
+                                <option value="P">17</option>
+                                <option value="Q">18</option>
+                                <option value="R">19</option>
+                                <option value="S">20</option>
+                                <option value="T">21</option>
+                                <option value="U">22</option>
+                                <option value="V">23</option>
+                                <option value="W">24</option>
+                                <option value="X">25</option>
+                                <option value="Y">26</option>
+                                <option value="Z">27</option>
+                                <option value="">28</option>
+                                <option value="A29">29</option>
+                                <option value="B30">30</option>
+                                <option value="C31">31</option>
+                            </select>
+                            <p>Day</p>
+                        </div>
+                        <div>
+                            <select name="Annee" id="annee" required>
+                                <option value="">
+                                    ANNEE
+                                </option>
+                                <option value="an1">2021</option>
+                                <option value="an2">2020</option>
+                                <option value="an3">2019</option>
+                                <option value="an4">2018</option>
+                                <option value="an5">2017</option>
+                                <option value="an6">2016</option>
+                                <option value="an7">2015</option>
+                                <option value="an8">2014</option>
+                                <option value="an9">2013</option>
+                                <option value="an10">2012</option>
+                                <option value="an11">2011</option>
+                                <option value="an12">2010</option>
+                                <option value="an13">2009</option>
+                                <option value="an14">2008</option>
+                                <option value="an15">2007</option>
+                                <option value="an16">2006</option>
+                                <option value="an17">2005</option>
+                                <option value="an18">2004</option>
+                                <option value="an19">2003</option>
+                                <option value="an20">2002</option>
+                                <option value="an21">2001</option>
+                                <option value="an22">2000</option>
+                                <option value="an23">1999</option>
+                                <option value="an24">1998</option>
+                                <option value="an25">1997</option>
+                                <option value="an26">1996</option>
+                                <option value="an27">1995</option>
+                                <option value="an28">1994</option>
+                                <option value="an29">1993</option>
+                                <option value="an30">1992</option>
+                                <option value="an31">1991</option>
+                                <option value="an32">1990</option>
+                            </select>
+                            <p>Year</p>
+                        </div>
+                    </div>
+                    <div class="form3">
+                        <p>Gender *</p>
+                        <div>
+                            <select name="Sexe" id="sexe" required>
+                                <option value="">Please Select</option>
+                                <option value="genreH">Homme</option>
+                                <option value="genreF">Femme</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form4">
+                    <div>
+                        <p>E-mail étudiant *</p>            
+                        <div>
+                            <input type="email" name=" Email" id="Mail" placeholder="ex: myname@gmail.com" required>
+                            <p>ex: myname@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="form4a">
+                        <p>Mobil Number *</p>
+                        
+                        <div>
+                            <input type="tel" name="Numero" id="numero" placeholder="70 400 00 00" required>
+                        </div>
+                    </div>     
+                </div>
+                <div class="form5">
+                    <p>Niveau d'étude *</p>
+                    <div>
+                        <select name="Etude" id="etude" required>
+                            <option value="">Please Select</option>
+                            <option value="">CFEE</option>
+                            <option value="">BFEM</option>
+                            <option value="">BAC</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="inscription">
+                    <input type="submit" value="Soumettre" class="inscription1" onchange="getValue(this)" >
+                </div>  
+            </section>
+        </fieldset>
+    </form> 
+
+    <script src="formilaire.js">
+
+    </script>
+
+    <p class="paragraphe_1">
+
+    </p>
+
+</body>
+</html>
